@@ -111,7 +111,7 @@ const MapContainer = () => {
             onKeyPress={handleSearch}
           />
           <S.RelocateButton onClick={handleRelocate}>
-            ↑내 위치 재탐색
+            내 위치 재탐색
           </S.RelocateButton>
           <S.NearestRouteButton onClick={handleNearestRoute}>
             가까운 경로 안내
@@ -120,15 +120,15 @@ const MapContainer = () => {
         <S.Legend>
           <S.LegendItem>
             <S.LegendDot $color="#00C853" />
-            <span>내 위치</span>
-          </S.LegendItem>
-          <S.LegendItem>
-            <S.LegendDot $color="#CD0B16" />
-            <span>응급실(일반)</span>
+            <span>응급실(여유)</span>
           </S.LegendItem>
           <S.LegendItem>
             <S.LegendDot $color="#FF9800" />
-            <span>응급실 (혼잡)</span>
+            <span>응급실(혼잡)</span>
+          </S.LegendItem>
+          <S.LegendItem>
+            <S.LegendDot $color="#CD0B16" />
+            <span>응급실(포화)</span>
           </S.LegendItem>
         </S.Legend>
       </S.Header>

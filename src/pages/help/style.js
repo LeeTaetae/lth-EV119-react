@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   width: 100%;
   min-height: 100vh;
-  background-color: #FFFFFF;
+  background-color: #F5F5F5;
   display: flex;
   flex-direction: column;
 `;
@@ -11,9 +11,9 @@ export const Container = styled.div`
 export const Header = styled.div`
   width: 100%;
   padding: 24px 20px;
-  background: linear-gradient(135deg, #FFFFFF 0%, #FFF5F5 100%);
-  border-bottom: 2px solid #FFE5E5;
-  box-shadow: 0 2px 8px rgba(205, 11, 22, 0.08);
+  background-color: #F8F8F8;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
 `;
 
 export const BackButton = styled.button`
